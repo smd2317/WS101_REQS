@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #fdf7f2, #e8d5c0);
+        }
+        
+        .logo {
+            max-width: 110px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        .booking {
+            background-color: #fff8f4;
+            padding: 50px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .form {
+            background-color: white;
+            padding: 30px 25px;
+            border-radius: 12px;
+            max-width: 500px;
+            width: 100%;
+            color: #4b2e2b;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .form h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .form p {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form td {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .sub-but {
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px;
+            background-color: #5C443A;
+            color: white;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .sub-but:hover {
+            background-color: #D2B1A3;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="booking">
+        <form action="https://formsubmit.co/davidsahara2317@gmail.com" method="POST" enctype="multipart/form-data" onsubmit="return showThankYou();">
+            <div class="form">
+                <img class="logo" src="logo.jpg" alt="Logo">
+                <h2>Book an Appointment</h2>
+                <p>Please fill out the form and we'll get back to you soon!</p>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" name="name" required></td> 
+                    </tr>
+                    <tr>
+                        <td>Contact No.:</td>
+                        <td><input type="text" name="contact" required></td>
+                    </tr>
+                    <tr>
+                        <td>Preferred Date:</td>
+                        <td><input type="text" name="date" required></td>
+                    </tr>
+                    <tr>
+                        <td>Service:</td>
+                        <td><input type="radio" name="service" value="Softgel Nail Extensions" required> Softgel Nail Extensions</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="radio" name="service" value="Softgel Nail Polish"> Softgel Nail Polish</td>
+                    </tr>
+                    <tr>
+                        <td>Upload Nail Inspo Picture:</td>
+                        <td><input type="file" name="inspo" accept="image/*"></td>
+                    </tr>
+                    <tr>
+                        <td>Additional Note:</td>
+                        <td><textarea name="notes" placeholder="Anything you'd like us to know?" cols="30" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" class="sub-but" value="Submit"></td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </section>
+
+    <script>
+        function showThankYou() {
+            alert("Thank you for booking, we’ll get back to you soon!");
+            return true; 
+        }
+    </script>
+</body>
+</html>

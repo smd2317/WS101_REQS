@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+         body {
+            background-image: url('about bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 15px 30px;
+            border-bottom: 1px solid #ddd;
+            
+        }
+
+        nav, a {
+            margin: 0;
+            color: #6F4E37;
+            font-size: 25px;
+            padding: 5px ;
+            text-align: right;
+            padding-left: 5px;
+            text-decoration: none;
+        }
+
+        nav {
+            padding-left: 410px;
+
+        }
+
+        nav, a:hover {
+            color: #D2B1A3;
+        }
+
+        .booking-btn, .btn {
+            background-color: #5C443A;
+            padding: 8px;
+            margin-right: 13px;
+            color: white;
+            text-decoration: none;
+        }
+        
+        h1 {
+            font-size: 30px;
+            font-family: 'Lora', serif;
+        }
+
+        h2 {
+            font-family: 'Quicksand', sans-serif;
+            margin: 5px 0;
+            padding-top: 18px;
+            letter-spacing: 1px;
+            font-weight: 650;
+            font-weight: bolder;
+        }
+        
+        .main-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 20px;
+            row-gap: 20px;
+            align-items: center; 
+            padding-right: 400px;
+            padding-left: 350px;
+            padding-bottom: 20px;
+        }
+
+        .polish {
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            padding: 8px;
+            width: 300px;
+            height: 450px;
+            text-align: left;
+            align-items: center;
+        }
+
+        .polish img{
+        width: 300px;
+        height: 300px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        padding-right: 10px;
+       }
+
+       .polish p {
+        text-align: center;
+       }
+
+       h3 {
+        margin: 0;
+        padding-bottom: 5px;
+        font-size: 30px;
+        font-family: 'Cormorant Garamond', serif;
+        text-align: center;
+       }
+
+       .price-list {
+        max-width: 100%;
+        margin: auto;
+        font-family: 'Arial', San-Serif;
+        color: #3e2b25;
+       }
+
+       h2 {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 5px;
+        color: #3e2b25;
+        padding-top: 90px;
+       }
+
+       .price-list p.note {
+        text-align: center;
+        font-style: italic;
+        font-size: 0.9em;
+        margin-bottom: 20px;
+       }
+
+       table {
+       width: 100%;
+       border-collapse: collapse;
+       margin-bottom: 20px;
+       text-align: center;
+      }
+
+       td, th {
+       padding: 8px;
+       text-align: left;
+       font-size: x-large;
+       }
+
+      td:last-child, th:last-child {
+      text-align: right;
+      }
+
+       ul {
+        margin-top: 0;
+        padding-left: 20px;
+       }
+
+       .book {
+        text-align: center;
+        font-style: italic;
+       }
+
+       footer {
+            background-color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .footer h3 {
+            font-size: 10px;
+        }
+
+        .ig-icon {
+            width: 25px;
+            height: 25px;
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .ig-icon:hover {
+            transform: scale(1.1);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap" 
+            rel="stylesheet">
+            Services</h1>
+
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="Services.html">Services</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="ContactUs.html">Contact Us</a>
+        </nav>
+        <div class="booking-btn">
+            <a class="btn" href="Booking.html">Get An Appointment</a>
+        </div> 
+    </header>
+
+    <h2>SERVICES</h2>
+
+    <div class="main-container">
+        <div class="polish">
+            <img class="exten" src="nail 9.jpg" alt="Nail 9">
+            <h3><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
+                Softgel Nail Extension</h3>
+            <p>Whether you love short, elegant nails or longer, trendy styles – softgel
+                 extensions are gentle on your natural nails and perfect for any occasion.</p>
+        </div>
+        <div class="polish">
+            <img class="gel" src="nail 10.jpg" alt="Nail 10">
+            <h3><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
+                Softgel Nail Polish</h3>
+            <p>Perfect for busy lifestyles and everyday glam – try softgel 
+                polish today and enjoy flawless nails with lasting shine!</p>
+        </div>
+    </div>
+
+    <section class="price-list">
+        <h2>PRICE LIST</h2>
+        <p class="note">Price may vary depending on your nail inspo/design. Please send your nail inspo.</p>
+      
+        <h3>Base Price</h3>
+        <table>
+          <tr>
+            <td>Softgel Nail Extensions (plain)</td>
+            <td>₱299</td>
+          </tr>
+          <tr>
+            <td>Softgel Nail Polish (plain)</td>
+            <td>₱199</td>
+          </tr>
+        </table>
+      
+        <h3>Add-ons (per nail)</h3>
+        <table>
+          <tr>
+            <td>Cat eye / Reflective glitters</td>
+            <td>₱20</td>
+        </tr>
+          <tr>
+            <td>Charms / Pearls / Stones</td>
+            <td>₱5 to 40</td>
+        </tr>
+          <tr>
+            <td>Nail art</td>
+            <td>₱20 to 50</td>
+        </tr>
+          <tr>
+            <td>Marble</td>
+            <td>₱30</td>
+        </tr>
+          <tr>
+            <td>Chrome</td>
+            <td>₱15</td>
+        </tr>
+          <tr>
+            <td>French tip</td>
+            <td>₱20</td>
+        </tr>
+          <tr>
+            <td>Ombre / Aura</td>
+            <td>₱20</td>
+        </tr>
+          <tr>
+            <td>3D nail art</td>
+            <td>₱20 to 60</td>
+        </tr>
+        </table>
+      
+        <h3>Removal</h3>
+        <table>
+          <tr>
+            <th>Nail Polish</th>
+            <th>Nail Extensions</th>
+          </tr>
+          <tr>
+            <td>My work</td>
+            <td>₱70</td>
+            <td>₱100</td>
+          </tr>
+          <tr>
+            <td>Not my work</td>
+            <td>₱100</td>
+            <td>₱150</td>
+          </tr>
+        </table>
+      
+        <p><strong>Note:</strong> Manage your expectations</p>
+        <ul>
+          <li>Home based</li>
+          <li>Beginner nail tech</li>
+        </ul>
+      
+        <p class="book">* 𓂃 Book your appointment now 𓂃 *</p>
+      </section>
+
+      <footer>
+        <h3> <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
+            tipsbyiah</h3>
+        <a href="https://www.instagram.com/tipsbyiah?igsh=MTJqeHg0cDlpaTFnaQ==" target="_blank">
+            <img src="IG icon.jpg" alt="IG Logo" class="ig-icon">
+        </a>
+        <p class="copyright">
+            © 2025 tipsbyiah. All rights reserved.
+        </p>
+        
+    </footer>
+
+
+
+</body>    
